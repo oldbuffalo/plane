@@ -1,0 +1,151 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="背景">
+      <UniqueIdentifier>{d072fa95-c69b-4215-ab15-56417a657a98}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="玩家飞机">
+      <UniqueIdentifier>{c3bc3205-91d2-473a-9d0c-7a9225544b52}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="子弹">
+      <UniqueIdentifier>{77ea1360-31b3-4bdd-9686-101899be17dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="敌人飞机">
+      <UniqueIdentifier>{2132f23c-6e96-4622-b480-8a52a655c3b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="敌人飞机\小飞机">
+      <UniqueIdentifier>{b5134bd8-e6d0-4dbc-a198-f9a27d06379f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="敌人飞机\中飞机">
+      <UniqueIdentifier>{337a4a6a-b6c8-4d9d-a960-a9e0c6fefaf9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="敌人飞机\大飞机">
+      <UniqueIdentifier>{7608f51d-e259-40f8-9cce-ed896528e160}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="敌人飞机\存活飞机管理类">
+      <UniqueIdentifier>{831b7775-6a29-47cf-b6f1-820f558933ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="敌人飞机\爆炸飞机管理类">
+      <UniqueIdentifier>{5e1ecf1b-28ce-4bd2-917b-d9aa94c44863}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="WinMain.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Back.cpp">
+      <Filter>背景</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>玩家飞机</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet.cpp">
+      <Filter>子弹</Filter>
+    </ClCompile>
+    <ClCompile Include="EmenyPlane.cpp">
+      <Filter>敌人飞机</Filter>
+    </ClCompile>
+    <ClCompile Include="SmallPlane.cpp">
+      <Filter>敌人飞机\小飞机</Filter>
+    </ClCompile>
+    <ClCompile Include="MiddlePlane.cpp">
+      <Filter>敌人飞机\中飞机</Filter>
+    </ClCompile>
+    <ClCompile Include="BigPlane.cpp">
+      <Filter>敌人飞机\大飞机</Filter>
+    </ClCompile>
+    <ClCompile Include="PlaneApp.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BulletManger.cpp">
+      <Filter>子弹</Filter>
+    </ClCompile>
+    <ClCompile Include="EmenyManger.cpp">
+      <Filter>敌人飞机\存活飞机管理类</Filter>
+    </ClCompile>
+    <ClCompile Include="BoomEmenyPlane.cpp">
+      <Filter>敌人飞机\爆炸飞机管理类</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CGameApp.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Back.h">
+      <Filter>背景</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>玩家飞机</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet.h">
+      <Filter>子弹</Filter>
+    </ClInclude>
+    <ClInclude Include="EmenyPlane.h">
+      <Filter>敌人飞机</Filter>
+    </ClInclude>
+    <ClInclude Include="SmallPlane.h">
+      <Filter>敌人飞机\小飞机</Filter>
+    </ClInclude>
+    <ClInclude Include="MiddlePlane.h">
+      <Filter>敌人飞机\中飞机</Filter>
+    </ClInclude>
+    <ClInclude Include="BigPlane.h">
+      <Filter>敌人飞机\大飞机</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PlaneApp.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="sys.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="BulletManger.h">
+      <Filter>子弹</Filter>
+    </ClInclude>
+    <ClInclude Include="EmenyManger.h">
+      <Filter>敌人飞机\存活飞机管理类</Filter>
+    </ClInclude>
+    <ClInclude Include="BoomEmenyPlane.h">
+      <Filter>敌人飞机\爆炸飞机管理类</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="CGameApp.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Res\Back.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\big.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\middle.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\p.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\small.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\bullet.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
